@@ -1,0 +1,117 @@
+body{
+    transition: background-color 1s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    display: flex;
+    height: 100vh; 
+    flex-direction: column;
+    margin-top: 100px;
+}
+.container{
+    background-color:inherit;
+    padding: 20;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+#searchBtn{
+    background-color:rgb(96, 68, 32);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#searchBtn:hover{
+    background-color: rgb(101, 75, 115);
+}
+.result{
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+.result h2 {
+    margin-bottom: 10px; /* h2'nin altına boşluk ekler */
+    font-size: 24px; /* Daha belirgin bir yazı boyutu */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.result p {
+    margin-top: 50px; /* Varsayılan üst boşluğu kaldırır */
+    font-size: 18px; /* Yazı boyutunu ayarlar */
+}
+
+.image{
+    background-color:inherit;
+    height: 100vh;
+    width:400px;
+    background-size: contain;
+}
+.container:hover{
+    background-color: wheat;
+    transition:background-color 1s ease-in-out;
+}
+.menu ul li {
+    float:left;
+    list-style-type:none;
+    }
+.menu ul li a{
+    font:17px Arial;
+    text-decoration:none;
+    display:block; 
+    padding:14px 15px;
+    }
+    .menu{ 
+    width:600px;
+    height:48px; 
+    background:#000; 
+    margin:0 auto;
+    border-bottom:4px solid #937341; 
+    border-radius: 20px;  
+ }
+.menu ul li a:hover{ color:#c4b998 ;}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
