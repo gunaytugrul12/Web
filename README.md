@@ -22,5 +22,5 @@ Projenin canlı haline aşağıdaki bağlantıdan ulaşabilirsiniz:
 - JavaScript (Vanilla JS)  
 - Netlify (Deploy)
 
-## 📂 Proje Yapısı
+
 
